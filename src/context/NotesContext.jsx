@@ -39,6 +39,7 @@ export default function NotesProvider({ children }) {
 export function useNotes() {
   return useContext(NotesContext);
 }
+
 export function useDispatchNotes() {
   return useContext(NotesDispatchContext);
 }
