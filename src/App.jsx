@@ -19,10 +19,12 @@ function App() {
   //   dispatch({ type: "Add", paylod: newNote });
   // }
 
+  
   // function HandleDelete(id) {
   //   // setNotes((prevNote) => prevNote.filter((n) => n.id !== id));
   //   dispatch({ type: "Delete", paylod: id });
   // }
+
 
   // function HandleCheck(e) {
   //   const noteID = Number(e.target.value);
