@@ -37,6 +37,7 @@ function NoteItem({ note }) {
     month: "long",
     day: "numeric",
   };
+  
   return (
     <div
       className={`note-item ${note.completed ? "completed" : ""}`}
