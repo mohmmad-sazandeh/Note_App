@@ -18,6 +18,7 @@ function AddNewNote() {
       completed: false,
       createAt: new Date().toISOString(),
     };
+    
     setTitle("");
     setDescription("");
     dispatch({ type: "Add", paylod: newNote });
